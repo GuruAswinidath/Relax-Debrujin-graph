@@ -1,0 +1,61 @@
+Heading:Genome PolymorphismDetection Throogh Relaxed de Brujin Graph Construction
+
+Group memebers: 
+	C.Guru Aswini Dath AM.EN.U4AIE21023	
+	Gopisetty Venkata Vignesh - AM.EN.U4AIE21074
+	Vedagiri Praneeth - AM.EN.U4AIE21066
+
+Table of contents:
+	1. Abstract
+	2.Introduction
+	3.Methods
+	4.Results and discussion
+	5.Conclusion and Future work
+
+1.Abstract:
+	1)Comparing genomes to identify polymorphisms is a difficult task, especially beyond single nucleotide polymorphisms. 
+	2) Polymorphism detection is important in disease
+association studies as well as in phylogenetic tree reconstruction.
+	3)We present a method for identifying polymorphisms
+in genomes by using a modified version de Bruijn graphs
+	4)Now a days,data structures are widely used in genome assembly from Next Generation Sequencing. 
+	5)Using our method, we are able to identify polymorphisms that exits in the genome.
+
+2.Introduction:
+	1)Genomic variation such as translocations and inversions have been shown to cause many human diseases.
+	2) Translocations have been shown to be the cause of several different types of cancer, such as Burkitt’s lymphoma and acute promyelocytic leukemia.
+	
+/* Studying and identifying different types of genomic polymorphisms could have impact on two very important fields in biology:--> genome wide association studies--> phylogenetic tree reconstruction.*/
+
+genome wide association studies:
+	 More than 10% of reads were unmapped when mapping 12.2 million reads to the human genome using the popular Burrows-Wheeler Aligner.
+	/***Some of the reads will be left unmapped due to errors generated during sequencing. Other reads are left unmapped for unknown reasons. It may be that some unmapped reads vary significantly.***/
+	Harnessing unmapped reads enables more thorough analysis of how individuals within a species differ and how genomic rearrangements may affect phenotypes.
+
+	
+
+​POLYMORPHISM:
+	It is the presence of two or more variant forms of a specific DNA sequence that can occur among different individuals or populations. 
+	The most common type of polymorphism involves variation at a single nucleotide (also called a single-nucleotide polymorphism/ SNP).
+	
+SNP:
+	DNA sequence variation that occur when a single nucleotide differs between members of biological species.
+	this may be subtitution,insertion or deletion.
+***image**
+
+Mutation:
+	it is defined as varation in the DNA sequece leading to delection,insertion,Duplication,substitution of an nuceliotes.
+
+Note:
+	SNP is a type of mutation
+	All mutations are not SNPs
+snp/mutation }if frquency>1% -->SNP
+			    if frequency<1%-->Mutation
+
+Translocation: 
+	A genetic change in which a piece of one chromosome breaks off and attaches to another chromosome.
+
+**Image**
+
+Inversions:
+	
